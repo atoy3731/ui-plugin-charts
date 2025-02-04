@@ -6,10 +6,10 @@ replicaCount: 1
 registry: "" # For private registry configurations
 
 image:
-  repository: rancher/ui-plugins
+  repository: rancher/ui-plugin-catalog
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.0.0"
+  tag: "3.3.0"
 
 imagePullSecrets: []
 nameOverride: ""
