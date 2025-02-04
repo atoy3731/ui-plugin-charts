@@ -1,0 +1,6 @@
+apiVersion: catalog.cattle.io/v1
+kind: ClusterRepo
+metadata:
+  name: ui-plugin-catalog-repo
+spec:
+  url: http://ui-plugin-catalog.{{ .Release.Namespace }}:{{ .Values.service.port }}
